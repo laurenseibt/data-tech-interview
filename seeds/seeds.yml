@@ -7,7 +7,7 @@ seeds:
 
   - name: transaction_transitions_seed
     config:
-      columns_types:
+      column_types:
         ID: VARCHAR
         INSERTED_AT: TIMESTAMP
         UPDATED_AT: TIMESTAMP
@@ -19,7 +19,7 @@ seeds:
 
   - name: transactions_seed
     config:
-      columns_types:
+      column_types:
         ID: VARCHAR
         BID_ID: VARCHAR
         STATE: VARCHAR
