@@ -1,9 +1,9 @@
-version: 1
+version: 2
 
 sources:
   - name: raw
     tables:
-      - name: orders
+      - name: orders         
         description: "Sample orders table"
       - name: customers
         description: "Sample customers table"
