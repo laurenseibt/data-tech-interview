@@ -1,0 +1,10 @@
+version: 1
+
+sources:
+  - name: raw
+    tables:
+      - name: orders
+        description: "Sample orders table"
+    tables:
+      - name: customers
+        description: "Sample customers table"
