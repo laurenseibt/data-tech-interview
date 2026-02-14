@@ -5,6 +5,5 @@ sources:
     tables:
       - name: orders
         description: "Sample orders table"
-    tables:
       - name: customers
         description: "Sample customers table"
