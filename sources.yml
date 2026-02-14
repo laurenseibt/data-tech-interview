@@ -7,3 +7,11 @@ sources:
         description: "Sample orders table"
       - name: customers
         description: "Sample customers table"
+      - name: transaction_termination_reasons_seed
+        description: "terminations reasons table"
+      - name: transaction_transitions_seed
+        description: "transactions log table to show change in stages"
+      - name: transactions_seed
+        description: "transactions details table"
+      
+        
