@@ -1,3 +1,5 @@
+// code to be reviewed
+
 WITH
 
 raw_customers AS (
