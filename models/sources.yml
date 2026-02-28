@@ -3,17 +3,12 @@ version: 2
 sources:
   - name: data_tech_interview
     tables:
-      - name: stg_customer_order_summary         
-        description: "customer order table"
       - name: termination_reasons
         description: "termination reasons by transaction id"
       - name: transaction_details
         description: "transactions details table"
       - name: transactions_transitions_log
         description: "transactions log table to show change in stages"
-      - name: orders
-        description: "sample order data"
-      - name: customers
-        description: "sample customer data"
+
       
 
