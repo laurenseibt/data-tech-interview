@@ -12,7 +12,7 @@ SELECT
     tt.transaction_id,
     tt.bid_accepted_at,
     tt.closed_paid_at,
-    DATEDIFF(day, tt.bid_accepted_at, tt.closed_paid_at) AS days_to_close,
+    DATEDIFF(day, tt.bid_accepted_at, tt.closed_paid_at) AS days_of_execution,
     d.state as current_state,
     d.company_id,
     d.num_shares,
