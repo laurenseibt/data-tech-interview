@@ -1,0 +1,30 @@
+models:
+- name: days_of_execution
+  columns:
+    - name: transaction_id
+      tests:
+        - unique
+        - not_null
+    - name: company_id
+      tests:
+        - not_null
+    - name: current_state
+      tests:
+        - accepted_values:
+            values: ['closed_paid']
+
+
+
+
+
+
+
+
+
+
+
+
+      
+        
+      
+        
